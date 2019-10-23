@@ -24,10 +24,6 @@ default: &default
   password: password
   host: localhost
 
-<<<<<<< HEAD
-
-=======
->>>>>>> e7003fed88239b2d9b403229fe8828cc2b5588d3
 development:
   <<: *default
   database: grammable_development
@@ -88,10 +84,5 @@ test:
 production:
   <<: *default
   database: grammable_production
-<<<<<<< HEAD
   # username: grammable
   # password: <%= ENV['GRAMMABLE_DATABASE_PASSWORD'] %>
-=======
- # username: grammable
- # password: <%= ENV['GRAMMABLE_DATABASE_PASSWORD'] %>
->>>>>>> e7003fed88239b2d9b403229fe8828cc2b5588d3
