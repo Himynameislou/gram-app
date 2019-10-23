@@ -60,6 +60,8 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+<<<<<<< HEAD
+=======
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.5'
@@ -78,3 +80,4 @@ end
 gem 'simple_form'
 
 gem 'devise'
+>>>>>>> e7003fed88239b2d9b403229fe8828cc2b5588d3
